@@ -121,7 +121,7 @@ class GameActivity : AppCompatActivity() {
 
             override fun onFinish() {
                 timerTextView.text = "Time's up!"
-                // Действия при завершении игры, например, переход к другому активити
+              finish()
             }
         }
         countDownTimer.start()
